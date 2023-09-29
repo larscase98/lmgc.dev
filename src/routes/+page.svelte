@@ -16,7 +16,7 @@
 					><Icon icon="mdi:github" width="22" /><span>github</span></a
 				>
 				<a href="mailto:lars@aloft.software" target="_blank" class="hover:text-sky-200"
-					><Icon icon="mdi:email" width="22" /> <span>email me</span></a
+					><Icon icon="mdi:email" width="22" /> <span>email</span></a
 				>
 			</div>
 		</div>
