@@ -10,13 +10,13 @@
 	<header>
 		<h1 class="chromabb">lars case</h1>
 		<div class="info">
-			<h2 class="sm:text-3xl text-fuchsia-100">web developer</h2>
+			<h2 class="subtitle">web developer</h2>
 			<div class="socials">
-				<a href="https://github.com/larscase98" target="_blank" class="hover:text-green-200"
+				<a href="https://github.com/larscase98" target="_blank" class="github"
 					><Icon icon="mdi:github" width="22" /><span>github</span></a
 				>
-				<a href="mailto:lars@aloft.software" target="_blank" class="hover:text-sky-200"
-					><Icon icon="mdi:email" width="22" /> <span>email</span></a
+				<a href="mailto:lars@aloft.software" target="_blank" class="email"
+					><Icon icon="mdi:email" width="22" /> <span>email me</span></a
 				>
 			</div>
 		</div>
@@ -34,21 +34,34 @@
 		@apply flex flex-col justify-start items-center p-4 rounded bg-transparent col-span-full;
 
 		h1 {
-			@apply text-6xl sm:text-8xl text-gray-200 pb-4;
+			@apply text-center leading-tight text-5xl sm:text-6xl md:text-8xl text-gray-200 pb-4;
 		}
 
 		.info {
-			@apply w-full flex flex-row justify-between items-center px-1 pt-4 pb-1;
+			@apply w-full flex flex-col sm:flex-row justify-between items-center px-1 pt-4 pb-1;
+		}
+
+		.subtitle {
+			@apply text-center text-2xl sm:text-2xl md:text-3xl text-fuchsia-100;
+			@apply pb-4 sm:pb-0;
 		}
 	}
 
 	.socials {
-		@apply flex flex-col justify-end items-end space-y-1;
+		@apply flex flex-col justify-center items-center sm:items-end space-y-1;
 
 		a {
 			@apply flex flex-row justify-between items-center;
 			@apply px-2 py-1 rounded bg-gray-600 shadow-sm;
-			@apply hover:bg-gray-500 transition-colors duration-150;
+			@apply hover:bg-gray-300 transition-colors duration-150;
+
+			&.github {
+				@apply hover:text-[#4078c0];
+			}
+
+			&.email {
+				@apply hover:text-[#bd2c00];
+			}
 
 			span {
 				@apply ml-1;
