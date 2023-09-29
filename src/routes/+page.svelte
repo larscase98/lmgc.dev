@@ -27,7 +27,7 @@
 <style lang="postcss">
 	.cont {
 		@apply grid grid-cols-2 gap-2 rounded-xl shadow-xl mb-4;
-		@apply bg-gradient-to-b from-gray-950 to-gray-900;
+		@apply bg-gradient-to-b from-gray-900 to-gray-800;
 	}
 
 	header {
