@@ -34,7 +34,7 @@
 		@apply flex flex-col justify-start items-center p-4 rounded bg-transparent col-span-full;
 
 		h1 {
-			@apply text-center leading-tight text-5xl sm:text-6xl md:text-8xl text-gray-200 pb-4;
+			@apply text-center leading-tight text-5xl sm:text-6xl md:text-8xl text-gray-200 pb-0 md:pb-2;
 		}
 
 		.info {
