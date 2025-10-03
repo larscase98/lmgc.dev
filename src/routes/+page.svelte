@@ -22,7 +22,8 @@
 		</div>
 	</header>
 </div>
-<a href="/projects" class="ul text-2xl">projects</a>
+
+<!-- <a href="/projects" class="ul text-2xl">projects</a> -->
 
 <style lang="postcss">
 	.cont {
